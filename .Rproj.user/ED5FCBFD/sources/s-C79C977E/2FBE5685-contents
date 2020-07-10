@@ -1,0 +1,39 @@
+findittrain <- read.csv("findittrain.csv")
+normalize <- function(x)
+{
+return((x- min(x)) /(max(x)-min(x)))
+}
+findittrainnormal <- as.data.frame(apply)
+findittrainnormal <- as.data.frame(apply(findittrain, normalize))
+findittrainnormal <- as.data.frame(lapply(findittrain, normalize))
+View(findittrainnormal)
+findittrainnormal$lights <- NULL
+findittest <- read.csv("datatesting.csv")
+findittrainfinal <- findittrainnormal[sample(nrow(findittrainnormal), 7000)]
+findittrainfinal <- findittrainnormal[sample(nrow(findittrainnormal), 7000), ]
+modelsvmlight <- svm(Appliances ~ . , data = findittrainfinal, cost = 2, gamma = 1)
+library(caret)
+library(caret)
+library(e1071)
+library(e1071)
+modelsvmlight <- svm(Appliances ~ . , data = findittrainfinal, cost = 2, gamma = 1)
+modelsvmapp <- svm(Appliances ~ . , data = findittrainfinal, cost = 2, gamma = 1)
+View(findittrainnormal)
+findittrainnormal$Appliances <- NULL
+findittrainnormal$Appliances <- findittrain$Appliances
+View(findittrainfinal)
+findittrainfinal <- findittrainnormal[sample(nrow(findittrainnormal), 7000), ]
+View(findittrainfinal)
+modelsvmapp <- svm(Appliances ~ . , data = findittrainfinal, cost = 2, gamma = 1)
+findittrainfinal$prediksisvm <- predict(modelsvmapp)
+RMSEapp <- postResample(prediksisvm, Appliances)
+RMSEapp <- postResample(findittrainfinal$prediksisvm, findittrain$Appliances)
+RMSEapp <- postResample(findittrainfinal$prediksisvm, findittrainfinal$Appliances)
+RMSEapp
+findittest$prediksisvm <- predict(modelsvmapp)
+View(findittest)
+View(findittrainfinal)
+View(findittest)
+findittest$prediksisvm <- NULL
+findittest$prediksisvm <- predict(modelsvmapp, findittest)
+View(findittest)

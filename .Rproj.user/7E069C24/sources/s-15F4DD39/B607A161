@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1589189902266.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "B607A161",
+    "lastKnownWriteTime" : 2440816944640,
+    "last_content_update" : 1589189902266,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "id" : "f48dbb4fdf0d4f0d823cd0db2456cc5a",
+        "name" : "cvknntiga",
+        "title" : "cvknntiga"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "object_explorer"
+}

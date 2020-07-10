@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1579161942998.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "2F2F13F",
+    "lastKnownWriteTime" : 3419473789575321445,
+    "last_content_update" : 1579161942998,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "2AE44F29",
+        "caption" : "senamika",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=senamika&cache_key=2AE44F29",
+        "displayedObservations" : "757",
+        "environment" : "",
+        "object" : "senamika",
+        "preview" : "0",
+        "totalObservations" : "757",
+        "variables" : "24"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

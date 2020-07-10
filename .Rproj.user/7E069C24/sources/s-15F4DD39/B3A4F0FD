@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1589189389973.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "B3A4F0FD",
+    "lastKnownWriteTime" : 7810123700365321520,
+    "last_content_update" : 1589189389973,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "B804FCD1",
+        "caption" : "datalat",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=datalat&cache_key=B804FCD1",
+        "displayedObservations" : "1218",
+        "environment" : "",
+        "expression" : "datalat",
+        "object" : "datalat",
+        "preview" : "0",
+        "totalObservations" : "1218",
+        "variables" : "23"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

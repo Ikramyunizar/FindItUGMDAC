@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1589189410923.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "12A88BE7",
+    "lastKnownWriteTime" : 1704533062888,
+    "last_content_update" : 1589189410923,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "id" : "17fbd932a08b4f74a9878e862c9f2289",
+        "name" : "foldsasli",
+        "title" : "foldsasli"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "object_explorer"
+}
